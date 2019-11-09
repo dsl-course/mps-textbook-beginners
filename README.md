@@ -26,7 +26,6 @@ Here are some of the highlights of the content of the textbook.
 - In the first part, we develop a textual UI for _Invoice Calculator_, introducing and showcasing necessary MPS notions.
 - We postpone as much as possible discussing **language aspects.** When we finally have to introduce aspects, we do not expose the reader to details unnecessary at a particular point. For example, discussion of `Editor` aspect tries to avoid making a big deal of projectional editing (see below). `Actions` aspect in not mentioned until the second part of the book, where it comes naturally in one of the examples.
 - We then discuss `Intentions` aspect and make a point about importance of domain-specific error support. We discuss an implementation of _Invoice Calculator_ in Excel for comparison.
-- INTENTIONS/QUICKFIXES TO MAKE POINT ABOUT EXCEL, DOMAIN-SPECIFIC ERRORS SUPPORT -- MAKES DIFFERENCE IN COMPARISON TO EXCEL
 - **Code generation** is discussed throught several spreads of the book, and we start with `TextGen` aspect, where we define a generator for _Invoice Calculator_
 that generates [RTF](https://en.wikipedia.org/wiki/Rich_Text_Format) files.
 - We continue with **code generation** with `Generator` aspect: we define a generator for _Invoice Calculator_ to XML. 
